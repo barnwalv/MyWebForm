@@ -19,6 +19,9 @@
                 <p>
                     <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
                 </p>
+                <asp:Button ID="btnConnect" runat="server" Text="Get Secret from AKV" OnClick="btnConnect_Click" /></br>
+                <%--Display the value--%>
+                <asp:Label ID="lblMessage" runat="server" Text="" CssClass="text-success"></asp:Label>
             </section>
             <section class="col-md-4" aria-labelledby="librariesTitle">
                 <h2 id="librariesTitle">Get more libraries</h2>
